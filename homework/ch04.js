@@ -1,10 +1,10 @@
 //ch4 01
-let year041 = prompt("请输入一个年份:");
+let year041 = prompt("請输入一个年份:");
 let isLeapYear041 = (year041 % 4 === 0 && year041 % 100 !== 0) || (year041 % 400 === 0);
-console.log(isLeapYear041 ? "是闰年" : "不是闰年");
+console.log(isLeapYear041 ? "是閏年" : "不是閏年");
 
 //ch4 02
-let month042 = prompt("请输入一个月份:");
+let month042 = prompt("請输入一个月份:");
 let days042;
 switch (parseInt(month042)) {
     case 1: case 3: case 5: case 7: case 8: case 10: case 12:
@@ -14,15 +14,15 @@ switch (parseInt(month042)) {
         days042 = 30;
         break;
     case 2:
-        days042 = "请考虑闰年的情况";
+        days042 = "請考虑閏年的情况";
         break;
     default:
-        days042 = "无效的月份";
+        days042 = "無效的月份";
 }
 console.log(days042);
 
 //ch4 03
-let str043 = prompt("请输入一个字符串:");
+let str043 = prompt("請输入一个字符串:");
 let reversedStr043 = "";
 for (let i043 = str043.length - 1; i043 >= 0; i043--) {
     reversedStr043 += str043[i043];
@@ -36,7 +36,7 @@ for (let i044 = rows044; i044 > 0; i044--) {
 }
 
 //ch4 05
-let num045 = prompt("请输入一个数字:");
+let num045 = prompt("請输入一个数字:");
 let isPrime045 = true;
 let i045 = 2;
 while (i045 <= Math.sqrt(num045)) {
@@ -46,7 +46,7 @@ while (i045 <= Math.sqrt(num045)) {
     }
     i045++;
 }
-console.log(isPrime045 && num045 > 1 ? "是质数" : "不是质数");
+console.log(isPrime045 && num045 > 1 ? "是質数" : "不是質数");
 
 //ch4 06
 let rows046 = 5;
@@ -57,7 +57,7 @@ while (i046 > 0) {
 }
 
 //ch4 07
-let n047 = prompt("请输入一个正整数:");
+let n047 = prompt("請输入一个正整数:");
 let factorial047 = 1;
 let i047 = 1;
 do {
